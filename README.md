@@ -65,9 +65,3 @@ source(url("[https://raw.githubusercontent.com/josecacciatore89/SERP0126-Topico-
 
 # Lista 04 Completa
 source(url("[https://raw.githubusercontent.com/josecacciatore89/SERP0126-Topico-Especial-Linguagem-R-de-Programacao/main/Lista-04_completa.R](https://raw.githubusercontent.com/josecacciatore89/SERP0126-Topico-Especial-Linguagem-R-de-Programacao/main/Lista-04_completa.R)"))
-
-# Lista 04 Completa
-source("[https://raw.githubusercontent.com/josecacciatore89/SERP0126-Topico-Especial-Linguagem-R-de-Programacao/refs/heads/main/Lista-04_completa.R](https://raw.githubusercontent.com/josecacciatore89/SERP0126-Topico-Especial-Linguagem-R-de-Programacao/refs/heads/main/Lista-04_completa.R)")
-# Exemplo para rodar a resolução completa da Lista 4
-source("lista04_completa.R")
-```
