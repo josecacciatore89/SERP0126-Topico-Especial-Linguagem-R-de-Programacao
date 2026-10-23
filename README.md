@@ -24,7 +24,7 @@ Além disso, para atender às solicitações específicas de criação de script
 
 * **Lista 04: Programação vetorizada em R (seleção, máscaras e classificação)**
   * `lista04_completa.R` — Resolução completa das questões da Lista 04.
-  * `Lista-03Q08.R` — Script dedicado exclusivamente ao projeto final da lista (**Questão 8**).
+  * `Lista-04Q08.R` — Script dedicado exclusivamente ao projeto final da lista (**Questão 8**).
 
 ---
 
@@ -45,7 +45,7 @@ Para executar qualquer script no R/RStudio:
 
 ```R
 # Exemplo para rodar o script da Questão 10 da Lista 2
-source("lista02.R")
+source("Lista-02Q10.R")
 
 # Exemplo para rodar a resolução completa da Lista 4
 source("lista04_completa.R")
