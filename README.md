@@ -37,16 +37,32 @@ Além disso, para atender às solicitações específicas de criação de script
 
 ---
 
-## 🚀 Como Executar os Scripts
+## 🚀 Como Executar os Scripts Direta e Remotamente no R
 
-Todos os scripts foram desenvolvidos para serem **autônomos e reprodutíveis**. Não há dependência de objetos criados previamente fora de cada arquivo.
+Você pode carregar e executar qualquer um dos scripts diretamente na sua sessão do R (RStudio ou Posit Cloud) sem precisar baixar os arquivos localmente. Basta usar a função `source()` apontando para as URLs brutas (*Raw*) do GitHub:
 
-Para executar qualquer script no R/RStudio:
+### Executando as questões individuais destacadas:
 
 ```R
-# Exemplo para rodar o script da Questão 10 da Lista 2
-source("Lista-02Q10.R")
+# Questão 10 - Lista 02
+source("[https://raw.githubusercontent.com/josecacciatore89/SERP0126-Topico-Especial-Linguagem-R-de-Programacao/refs/heads/main/Lista-02Q10.R](https://raw.githubusercontent.com/josecacciatore89/SERP0126-Topico-Especial-Linguagem-R-de-Programacao/refs/heads/main/Lista-02Q10.R)")
 
+# Questão 08 - Lista 03
+source("[https://raw.githubusercontent.com/josecacciatore89/SERP0126-Topico-Especial-Linguagem-R-de-Programacao/refs/heads/main/Lista-03Q08.R](https://raw.githubusercontent.com/josecacciatore89/SERP0126-Topico-Especial-Linguagem-R-de-Programacao/refs/heads/main/Lista-03Q08.R)")
+
+# Questão 08 - Lista 04
+source("[https://raw.githubusercontent.com/josecacciatore89/SERP0126-Topico-Especial-Linguagem-R-de-Programacao/refs/heads/main/Lista-04Q08.R](https://raw.githubusercontent.com/josecacciatore89/SERP0126-Topico-Especial-Linguagem-R-de-Programacao/refs/heads/main/Lista-04Q08.R)")
+# Lista 01 Completa
+source("[https://raw.githubusercontent.com/josecacciatore89/SERP0126-Topico-Especial-Linguagem-R-de-Programacao/refs/heads/main/Lista-01.R](https://raw.githubusercontent.com/josecacciatore89/SERP0126-Topico-Especial-Linguagem-R-de-Programacao/refs/heads/main/Lista-01.R)")
+
+# Lista 02 Completa
+source("[https://raw.githubusercontent.com/josecacciatore89/SERP0126-Topico-Especial-Linguagem-R-de-Programacao/refs/heads/main/Lista-02_completa.R](https://raw.githubusercontent.com/josecacciatore89/SERP0126-Topico-Especial-Linguagem-R-de-Programacao/refs/heads/main/Lista-02_completa.R)")
+
+# Lista 03 Completa
+source("[https://raw.githubusercontent.com/josecacciatore89/SERP0126-Topico-Especial-Linguagem-R-de-Programacao/refs/heads/main/Lista-03_completa.R](https://raw.githubusercontent.com/josecacciatore89/SERP0126-Topico-Especial-Linguagem-R-de-Programacao/refs/heads/main/Lista-03_completa.R)")
+
+# Lista 04 Completa
+source("[https://raw.githubusercontent.com/josecacciatore89/SERP0126-Topico-Especial-Linguagem-R-de-Programacao/refs/heads/main/Lista-04_completa.R](https://raw.githubusercontent.com/josecacciatore89/SERP0126-Topico-Especial-Linguagem-R-de-Programacao/refs/heads/main/Lista-04_completa.R)")
 # Exemplo para rodar a resolução completa da Lista 4
 source("lista04_completa.R")
 ```
